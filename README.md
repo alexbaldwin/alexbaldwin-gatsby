@@ -4,6 +4,9 @@
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc6a1a7c-5cad-4a5c-8a4b-9e8139d85972/deploy-status)](https://app.netlify.com/sites/alexbaldwin-gatsby/deploys)
+
 <h1 align="center">
   Gatsby's default starter
 </h1>

@@ -1,13 +1,8 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require('path')
 
-// You can delete this file if you're not using it
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  const pageTemplate = path.resolve(`src/templates/page.js`);
+  const pageTemplate = path.resolve(`src/components/page.js`);
 
   return graphql(
     `
@@ -15,11 +10,8 @@ exports.createPages = ({ graphql, actions }) => {
       allMdx {
         edges {
           node {
+            id
             frontmatter {
-              date
-              published
-              image
-              external
               title
             }
           }
@@ -32,14 +24,15 @@ exports.createPages = ({ graphql, actions }) => {
       return Promise.reject(result.errors)
     }
 
-    const markdownItems = result.data.allMdx.edges
+    const posts = result.data.allMdx.edges
 
-    // Create pages and blog post pages
-    markdownItems.forEach(({ node }) => {
+    posts.forEach(({ node }) => {
         createPage({
-          path: node.frontmatter.path,
+          path: node.frontmatter.title,
           component: pageTemplate,
+          context: { id: node.id },
         })
     })
   })
 }
+

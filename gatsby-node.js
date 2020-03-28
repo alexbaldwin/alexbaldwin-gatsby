@@ -13,6 +13,7 @@ exports.createPages = ({ graphql, actions }) => {
             id
             frontmatter {
               title
+              path
             }
           }
         }
@@ -28,7 +29,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     posts.forEach(({ node }) => {
         createPage({
-          path: node.frontmatter.title,
+          path: node.frontmatter.path || node.frontmatter.title,
           component: pageTemplate,
           context: { id: node.id },
         })

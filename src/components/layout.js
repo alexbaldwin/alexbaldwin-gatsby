@@ -4,6 +4,9 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
+import { Styled } from 'theme-ui'
 
 import React from "react"
 import PropTypes from "prop-types"
@@ -26,20 +29,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <Styled.p>
+            © {new Date().getFullYear()}
+            {` `}
+            <Styled.a href="https://alexbaldwin.com">Alex Baldwin</Styled.a>
+          </Styled.p>
         </footer>
-      </div>
     </>
   )
 }

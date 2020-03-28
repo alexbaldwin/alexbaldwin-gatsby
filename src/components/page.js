@@ -1,3 +1,7 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
+import { Styled } from 'theme-ui'
+
 import React from "react"
 import { graphql, Link } from "gatsby"
 
@@ -7,6 +11,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+
 
 export const pageQuery = graphql`
   query BlogPostQuery($id: String) {
@@ -23,8 +28,10 @@ export const pageQuery = graphql`
 export default function Page({ data: { mdx } }) {
   return (
     <Layout>
-      <h1>{mdx.frontmatter.title}</h1>
-      <MDXRenderer>{mdx.body}</MDXRenderer>
+      <Styled.h1>{mdx.frontmatter.title}</Styled.h1>
+      <MDXRenderer>
+        {mdx.body}
+      </MDXRenderer>
     </Layout>
   )
 }

@@ -92,7 +92,7 @@ When using invitation emails hint at the solution and benefit to hint at how pot
 
 ## Building the growth machine
 
-[Elliot Shmukler](http://www.linkedin.com/in/eshmu)
+[Elliot Shmukler](https://www.linkedin.com/in/eshmu)
 
 1. Set growth goal
 2. Understand drivers
@@ -122,7 +122,7 @@ Micro-questions, reduce friction by breaking out forms. You need all the data, b
 
 ## Email: unglamorous, difficult, effective
 
-[Mike Greenfield](http://numeratechoir.com/)
+[Mike Greenfield](https://numeratechoir.com/)
 
 Fix your email funnel and optimize in the order of magnitude of holes in your funnel. For example, only 20% of our emails got to Yahoo Mail users, by switching service providers we were able to get that number to 100%.
 

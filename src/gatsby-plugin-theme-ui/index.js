@@ -38,6 +38,11 @@ export default {
       marginRight: 'auto',
       marginLeft: 'auto',
       maxWidth: 600,
+      img: {
+        position: 'relative',
+        display: 'block',
+        marginRight: -200,
+      },
     },
     ol: {
       marginRight: 'auto',
@@ -53,7 +58,7 @@ export default {
       fontFamily: "body",
       fontSize: 2,
     },
-    figcatpion: {
+    figcaption: {
       fontFamily: "body",
       color: 'secondary',
       fontSize: 0,

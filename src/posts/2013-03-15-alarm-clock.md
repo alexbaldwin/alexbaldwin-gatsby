@@ -3,7 +3,7 @@ title: Kill the alarm clock
 date: 2013-03-15 22:20:00 Z
 ---
 
-In response to the resurgance of Supermemo's popular [free running sleep](http://www.supermemo.com/articles/sleep.htm#Free_running_sleep) article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degrees of success
+In response to the resurgance of Supermemo's popular [free running sleep](https://www.supermemo.com/articles/sleep.htm#Free_running_sleep) article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degrees of success
 
 > There is only one formula for healthy and refreshing sleep: Go to sleep only when you are very tired. Not earlier. Not later. Wake up naturally without an alarm clock.
 

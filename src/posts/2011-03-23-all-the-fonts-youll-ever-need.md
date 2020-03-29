@@ -7,4 +7,4 @@ date: 2011-03-23 17:08:00 Z
 
 ![All the fonts you'll ever need](kadavy-all-the-fonts.png)
 
-via [kadavy.net](http://kadavy.net)
+via [kadavy.net](https://kadavy.net)

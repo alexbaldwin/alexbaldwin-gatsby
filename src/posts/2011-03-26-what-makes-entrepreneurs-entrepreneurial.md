@@ -9,4 +9,4 @@ Normally I hate papers, but this one caught my eye. Especially when a VC comment
 
 ![Typical MBA horseshit](khosla-cube.png)
 
-via [Khosla Ventures](http://www.khoslaventures.com/presentations/What_makes_entrepreneurs_entrepreneurial.pdf)
+via [Khosla Ventures](https://www.khoslaventures.com/presentations/What_makes_entrepreneurs_entrepreneurial.pdf)

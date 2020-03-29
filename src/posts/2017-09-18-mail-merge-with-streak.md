@@ -1,4 +1,5 @@
 ---
+permalink: /cool/
 title: Small-batch bespoke emails with Gmail and Streak
 date: 2017-09-18 00:00:00 Z
 ---

@@ -28,6 +28,7 @@ export const pageQuery = graphql`
 export default function Page({ data: { mdx } }) {
   return (
     <Layout>
+      <SEO title={ mdx.frontmatter.title} />
       <Styled.h1>{mdx.frontmatter.title}</Styled.h1>
       <MDXRenderer>
         {mdx.body}

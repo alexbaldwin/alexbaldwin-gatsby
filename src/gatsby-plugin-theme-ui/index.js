@@ -3,7 +3,8 @@ export default {
     text: "rgb(26, 26, 26)",
     background: "#fff",
     primary: "#639",
-    secondary: 'rgb(228, 228, 228)',
+    secondary: 'rgb(148, 148, 148)',
+    tertiary: 'rgb(228, 228, 228)',
   },
   fonts: {
     body: "Inter, system-ui, sans-serif",
@@ -96,7 +97,7 @@ export default {
     a: {
       color: 'text',
       ':hover': {
-        color: 'red',
+        color: 'gray',
       },
     },
     pre: {
@@ -109,5 +110,12 @@ export default {
     figure: {
       marginBottom: 6,
     },
+    '.footnotes': {
+      backgroundColor: 'red',
+    },
+    hr: {
+      display: 'none',
+    },
+
   }
 }

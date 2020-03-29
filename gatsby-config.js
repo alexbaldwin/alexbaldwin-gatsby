@@ -123,7 +123,7 @@ module.exports = {
               }
             `,
             output: "/feed.xml",
-            title: site.siteMetadata.title,
+            title: "Alex Baldwin",
           },
         ],
       }

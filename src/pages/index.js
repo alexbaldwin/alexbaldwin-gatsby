@@ -12,6 +12,7 @@ export const query = graphql`
         node {
           id
           frontmatter {
+            path
             title
           }
         }
@@ -33,7 +34,7 @@ export default props => {
               {posts.map(post => (
                 <li key={post.node.id}>
                   <h2>
-                      <Link to={post.node.frontmatter.title} >
+                      <Link to={post.node.frontmatter.path} >
                       {post.node.frontmatter.title}
                       </Link>
                         </h2>

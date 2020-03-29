@@ -12,7 +12,7 @@ export default {
   },
   fontWeights: {
     body: 400,
-    heading: 400,
+    heading: 700,
     bold: 700,
   },
   lineHeights: {
@@ -24,32 +24,54 @@ export default {
   styles: {
     h1: {
       fontFamily: "body",
+      lineHeight: 'heading',
       fontSize: 4,
-      fontWeight: "body",
+      marginRight: 'auto',
+      marginLeft: 'auto',
+      maxWidth: 600,
+    },
+    h2: {
+      fontFamily: "body",
+      lineHeight: 'heading',
+      fontSize: 3,
+      marginTop: 6,
+      marginBottom: 3,
+      marginRight: 'auto',
+      marginLeft: 'auto',
+      maxWidth: 600,
+    },
+    h3: {
+      fontFamily: "body",
+      lineHeight: 'heading',
+      fontSize: 2,
+      marginTop: 5,
+      marginBottom: 3,
       marginRight: 'auto',
       marginLeft: 'auto',
       maxWidth: 600,
     },
     p: {
       fontFamily: "body",
+      lineHeight: 'body',
       fontSize: 2,
-      marginTop: 4,
+      marginTop: 3,
       marginBottom: 3,
       marginRight: 'auto',
       marginLeft: 'auto',
       maxWidth: 600,
-      img: {
-        position: 'relative',
-        display: 'block',
-        marginRight: -200,
-      },
     },
     ol: {
+      padding: 0,
+      marginTop: 3,
+      marginBottom: 4,
       marginRight: 'auto',
       marginLeft: 'auto',
       maxWidth: 600,
     },
     ul: {
+      padding: 0,
+      marginTop: 3,
+      marginBottom: 4,
       marginRight: 'auto',
       marginLeft: 'auto',
       maxWidth: 600,
@@ -57,6 +79,8 @@ export default {
     li: {
       fontFamily: "body",
       fontSize: 2,
+      marginBottom: 2,
+      lineHeight: 'body',
     },
     figcaption: {
       fontFamily: "body",
@@ -74,6 +98,16 @@ export default {
       ':hover': {
         color: 'red',
       },
+    },
+    pre: {
+      marginTop: 4,
+      marginBottom: 4,
+      marginRight: 'auto',
+      marginLeft: 'auto',
+      maxWidth: 600,
+    },
+    figure: {
+      marginBottom: 6,
     },
   }
 }

@@ -50,7 +50,7 @@ The Cabal would meet four days a week for six hours a day with minimum five peop
 
 Cabal meetings went for five months straight and then off and on until the end of the project. By the second month, there was enough of a foundation to begin development on key areas. Into the third month, they were able to start play testing. Play testing was critical, a two-hour session would lead to about 100 action items that would need to be dealt with and feedback was given to the Cabal team. Early feedback allowed them to remove what wasn’t working and expand the best parts.
 
-They learned some things about running the Cabal:
+### They learned some things about running the Cabal
 
 * Everyone contributed, but not every day. Having many different perspectives is what allowed them to not stall out.
 * Artificial constraints caused them to create their best work.
@@ -110,7 +110,7 @@ The goal of the understand phase is to develop common thoughts including the pro
 
 Clients that come in with existing research rock at this part. We love to review any kind of competitive analysis or ideally any user studies done in the past. One client even brought in her first ten list of companies she had already sold and wanted to onboard to a new product, this made designing a solution for that group of companies much more realistic.
 
-Activities for this phase include:
+### Activities for this phase include
 
 * Writing a definitive challenge statement. This is a lot harder than it sounds. A great scaffolding for a challenge statement is “Design a way for [specific group of people] to better [situation]”. In example, “Design a way for iPhone owners to better find their keys”. 
 * Definitions of key terms. Making a huge dictionary of all proprietary words. You would be surprised with how diluted the word user becomes.
@@ -141,7 +141,7 @@ The goal of converging is to take all of the possibilities exposed, eliminate th
 
 These ideas will guide the implementation of a prototype that will be tested with existing or potential customers.
 
-When converging, we want to:
+### When converging, we want to
 
 * Identify the ideas that aim to solve the same problem in different ways.
 * Eliminate solutions that can’t be pursued currently.
@@ -187,21 +187,21 @@ By the way if you want your team to practice doing user research, I highly sugge
 
 Reflecting on a year of design sprints has led to a lot of insights into how we’ve adapted them for our needs. First off, it led to a distinctly different behavior in our clients. No longer was it acceptable to give feature requests without significant reasoning and research.
 
-Aspects of a design sprint:
+### Aspects of a design sprint
 
 * Starts with a challenge statement. 
 * Structured collaborations with set expectations.
 * Many contributors involved across disciplines.
 * Has key deliverables with a feedback mechanism.
 
-Future of design sprints at thoughtbot:
+### Future of design sprints at thoughtbot
 
 * Design thinking exercises shouldn’t be confined to only be used the formal sprint process. It won’t be a sprint any more, these techniques should be used at all points in the development process.
 * Templates should be available that are customizable to your organization and needs.
 * Better preparation will come in time with ability to anticipate needs of different exercises. For example, with crazy-eights, we’ve printed out pads of work sheets that are custom tailored for that exercise. It feels way more official and structured. The business model canvas is a great example of how useful, repeatable, and flexible these work sheets could be. IDEO’s Human Centered Design Handbook has lots of really nice examples.
 * I can imagine a toolbox of exercises to get you unstuck. Like little open-source UNIX tools for creative collaboration.
 
-More info:
+### More info
 
 * [The Product Design Sprint: A Five-Day Recipe for Startups](https://www.gv.com/lib/the-product-design-sprint-a-five-day-recipe-for-startups) by Jake Knapp, Google Ventures
 * [The Product Design Sprint](https://robots.thoughtbot.com/the-product-design-sprint) by Galen Frechette, thoughtbot

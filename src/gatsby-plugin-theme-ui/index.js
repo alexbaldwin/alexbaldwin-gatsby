@@ -112,10 +112,9 @@ export default {
     },
     '.footnotes': {
       backgroundColor: 'red',
+      hr: {
+        display: 'none',
+      },
     },
-    hr: {
-      display: 'none',
-    },
-
   }
 }

@@ -17,7 +17,7 @@ GoldenEye 64 had a special place in my heart when I was growing up. It was the f
 
   > “When Nintendo asked if we wanted to do it, we said, ‘well not really.’ We were trying to build our own IP, and film tie-ins meant a lot of ownership by the film company.”
 
-  The team faced insane amounts of adversity and uncertainty. Starting out, they didn't even know what the specs were for the new platform.  [Wikipedia on the game's development](https://alexbaldw.in/Kb0a).
+  The team faced insane amounts of adversity and uncertainty. Starting out, they didn't even know what the specs were for the new platform.  [Wikipedia on the game's development](https://en.wikipedia.org/wiki/GoldenEye_007_%281997_video_game%29#Development).
 
   > Final N64 specifications and development workstations were not initially available to Rare: a modified Sega Saturn controller was used for some early play testing, and the developers had to estimate what the finalized console's capabilities would be.
 
@@ -35,7 +35,7 @@ GoldenEye 64 had a special place in my heart when I was growing up. It was the f
 
   > The game's multiplayer mode was added late in the development process; Martin Hollis described it as "a complete afterthought." According to David Doak, the majority of the work on the multiplayer mode was done by Steve Ellis, who "sat in a room with all the code written for a single-player game and turned GoldenEye into a multiplayer game."
 
-  Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and [win a crazy amount of awards](http://alexbaldw.in/KbGG). Next time you're heading down the wrong way of the [entrepreneurial rollercoaster](http://www.fourhourworkweek.com/blog/2008/10/03/harnessing-entrepreneurial-manic-depression-making-the-rollercoaster-work-for-you/), take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
+  Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and win a crazy amount of awards. Next time you're heading down the wrong way of the [entrepreneurial rollercoaster](http://www.fourhourworkweek.com/blog/2008/10/03/harnessing-entrepreneurial-manic-depression-making-the-rollercoaster-work-for-you/), take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
 
   Thanks to [Andy Parker](https://about.me/andylynnparker) for editing. Illustration by [Alexandra Bond](https://alexandra-bond.com/).
 

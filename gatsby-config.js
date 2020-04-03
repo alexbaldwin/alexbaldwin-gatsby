@@ -6,16 +6,14 @@ module.exports = {
     siteUrl: `https://alexbaldwin.com`,
   },
   plugins: [
-    'gatsby-plugin-theme-ui',
+    `gatsby-plugin-theme-ui`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `inter`,
-        ],
-        display: 'swap'
-      }
+        fonts: [`inter`],
+        display: 'swap',
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -93,13 +91,13 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMdx } }) => {
-              return allMdx.edges.map(edge => {
+              return allMdx.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
                   guid: site.siteMetadata.siteUrl + edge.node.frontmatter.path,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               })
             },
@@ -122,12 +120,12 @@ module.exports = {
                 }
               }
             `,
-            output: "/feed.xml",
-            title: "Alex Baldwin",
+            output: '/feed.xml',
+            title: 'Alex Baldwin',
           },
         ],
-      }
-    }
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

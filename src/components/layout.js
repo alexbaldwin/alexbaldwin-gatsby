@@ -6,15 +6,15 @@
  */
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import { Styled } from 'theme-ui'
+import { Container, Styled } from 'theme-ui'
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { useStaticQuery, graphql } from 'gatsby'
 
-import Header from "./header"
-import Newsletter from "./newsletter"
-import "./layout.css"
+import Header from './header'
+import Newsletter from './newsletter'
+import './layout.css'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,16 +29,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <main>{children}</main>
-    <footer>
-      <Newsletter />
-      <Styled.p>
-        © {new Date().getFullYear()}
-        {` `}
-        <Styled.a href="https://alexbaldwin.com">Alex Baldwin</Styled.a>
-      </Styled.p>
-    </footer>
+      <Container>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <main>{children}</main>
+        <footer>
+          <Newsletter />
+          <Styled.p>
+            © {new Date().getFullYear()}
+            {` `}
+            <Styled.a href="https://alexbaldwin.com">Alex Baldwin</Styled.a>
+          </Styled.p>
+        </footer>
+      </Container>
     </>
   )
 }

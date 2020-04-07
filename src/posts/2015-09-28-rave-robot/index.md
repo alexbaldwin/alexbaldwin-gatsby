@@ -12,4 +12,4 @@ it live on in the lab. It was truly ahead of it's time, but now [Cochlea](https:
 
 Let me know if you have any feature requests.
 
-![wowzer.gif](/uploads/wowzer.gif)
+![wowzer.gif](https://media.giphy.com/media/5hgQz4Z1qfIj1BLNtu/giphy.gif)

@@ -23,7 +23,6 @@ export const query = graphql`
             path
             date(formatString: "MMMM Do, YYYY")
             permalink
-            external
             published
             title
           }

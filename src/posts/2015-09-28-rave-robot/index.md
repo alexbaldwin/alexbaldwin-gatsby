@@ -2,8 +2,11 @@
 path: /rave-robot/
 title: Rave Robot
 date: 2015-09-28 02:11:00 Z
-external: https://alexbaldwin.com/lab/raverobot
 ---
+
+Update: Rave Robot has merged with Jon Howard's Cochlea project.
+
+[Rave Robot &rarr;](http://staringispolite.github.io/cochlea/)
 
 Full-screen gif mayhem. Worked on this one day last year with CH Albach in order
 to show it off for a Halloween party. Since the domain is expiring, I'd prefer

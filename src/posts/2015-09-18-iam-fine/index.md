@@ -2,8 +2,9 @@
 path: /iam-fine/
 title: IAM FINE Mix
 date: 2015-09-18 18:38:00 Z
-external: https://ruby.fm/alexbaldwin/iam-fine
 ---
+
+[IAM Fine &rarr;](https://ruby.fm/alexbaldwin/iam-fine)
 
 While in Korea, I used Shazam to record all the songs played in coffee shops.
 Here's a mix I put together of all the discovered tracks.

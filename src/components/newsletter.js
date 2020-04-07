@@ -48,6 +48,14 @@ export default class Newsletter extends React.Component {
               id="email"
               sx={{ flex: '1 1 auto', bg: 'white' }}
             />
+            <label
+              sx={{
+                display: 'none',
+              }}
+              for="email"
+            >
+              Email
+            </label>
             <Button
               as="input"
               type="submit"

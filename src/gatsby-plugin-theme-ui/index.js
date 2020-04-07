@@ -75,7 +75,12 @@ export default {
       fontSize: 0,
     },
     blockquote: {
+      marginLeft: 0,
+      marginTop: 4,
+      marginBottom: 4,
       p: {
+        fontStyle: 'italic',
+        opacity: '0.8',
         borderLeft: '1px solid rgb(228, 228, 228)',
         paddingLeft: 3,
       },

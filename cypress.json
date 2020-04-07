@@ -1,3 +1,10 @@
 {
-  "projectId": "1h5uik"
+  "projectId": "1h5uik",
+  "baseUrl": "http://localhost:8000",
+  "viewportWidth": 1280,
+  "defaultCommandTimeout": 20000,
+  "video": false,
+  "blacklistHosts": [
+    "*.usefathom.com"
+  ]
 }

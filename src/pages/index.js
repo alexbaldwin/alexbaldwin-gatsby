@@ -37,22 +37,24 @@ export default (props) => {
 
   return (
     <Layout>
-      <SEO title="Alex Baldwin" />
-      {posts.map((post) => (
-        <Box key={post.node.id} py={1}>
-          <Styled.p
-            sx={{
-              color: 'secondary',
-            }}
-          >
-            <Styled.a as={Link} to={post.node.frontmatter.path}>
-              {post.node.frontmatter.title}
-            </Styled.a>
-            <br />
-            {post.node.frontmatter.date}
-          </Styled.p>
-        </Box>
-      ))}
+      <div data-cy="index-page">
+        <SEO title="Alex Baldwin" />
+        {posts.map((post) => (
+          <Box key={post.node.id} py={1}>
+            <Styled.p
+              sx={{
+                color: 'secondary',
+              }}
+            >
+              <Styled.a as={Link} to={post.node.frontmatter.path}>
+                {post.node.frontmatter.title}
+              </Styled.a>
+              <br />
+              {post.node.frontmatter.date}
+            </Styled.p>
+          </Box>
+        ))}
+      </div>
     </Layout>
   )
 }
